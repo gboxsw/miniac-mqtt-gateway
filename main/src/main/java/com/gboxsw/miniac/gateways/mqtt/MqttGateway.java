@@ -1,4 +1,4 @@
-package com.gboxsw.miniac.mqttgateway;
+package com.gboxsw.miniac.gateways.mqtt;
 
 import java.util.*;
 import java.util.logging.*;
@@ -8,6 +8,9 @@ import com.gboxsw.miniac.mqttutils.*;
 
 import org.eclipse.paho.client.mqttv3.*;
 
+/**
+ * Gateway that redirects messages to/from an mqtt client.
+ */
 public class MqttGateway extends Gateway {
 
 	/**
