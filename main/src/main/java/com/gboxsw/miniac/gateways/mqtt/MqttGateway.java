@@ -14,6 +14,11 @@ import org.eclipse.paho.client.mqttv3.*;
 public class MqttGateway extends Gateway {
 
 	/**
+	 * Default (pre-defined) name of the gateway.
+	 */
+	public static final String DEFAULT_ID = "mqtt";	
+
+	/**
 	 * Logger.
 	 */
 	private static final Logger logger = Logger.getLogger(MqttGateway.class.getName());
